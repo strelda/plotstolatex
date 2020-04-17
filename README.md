@@ -1,6 +1,6 @@
 # Few examples, of how to format plots for nice LaTeX import
 
-##Mathematica
+## Mathematica
 *compatibility: Mathematica 12*
 
 ```
