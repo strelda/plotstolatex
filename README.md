@@ -1,4 +1,4 @@
-# Few examples, of how to format plots for nice LaTeX import
+# Few examples of how to format plots for nice LaTeX import
 
 ## Mathematica
 *compatibility: Mathematica 12*
