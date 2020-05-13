@@ -6,6 +6,7 @@
 ```
 ResourceFunction["MaTeXInstall"][]
 ```
+On Windows you will probably need to install ghostscript.
 2) load MaTeX and define style
 ```
 << MaTeX`
