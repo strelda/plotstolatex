@@ -2,7 +2,11 @@
 
 ## Mathematica
 *compatibility: Mathematica 12*
-
+1) Install MaTeX:
+```
+ResourceFunction["MaTeXInstall"][]
+```
+2) 
 ```
 << MaTeX`
 texout = {Frame -> True, ImageSize -> 410, 
