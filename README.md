@@ -6,7 +6,7 @@
 ```
 ResourceFunction["MaTeXInstall"][]
 ```
-2) 
+2) load MaTeX and define style
 ```
 << MaTeX`
 texout = {Frame -> True, ImageSize -> 410, 
