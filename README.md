@@ -6,7 +6,7 @@
 ```
 ResourceFunction["MaTeXInstall"][]
 ```
-On Windows you will probably need to install ghostscript.
+On Windows you will probably need to install ghostscript, or remove Windows and install Linux.
 
 
 2) load MaTeX and define style
@@ -48,12 +48,11 @@ Without dev.off(), no file is written. RStudio has some issues with open instanc
 Error in dev.off() : cannot shut down device 1 (the null device)
 ```
 which means that workspace is clean.
-Other problem can occur due to TeX syntax error, which implies no .tex file is written, or sometimes it writes just some nonsence.
+Other problem can occur due to TeX syntax error, which implies no .tex file is written, or sometimes it writes just some nonsense.
 
 ## Importing tikz plot to LaTeX
 
-In LaTeX should be sufficient to use the *tikz* package.
-You can create standalone pdf with your preferred formatting
+In LaTeX it should be sufficient to use the *tikz* package.
 ```
 \documentclass[12pt]{standalone}
 \usepackage{tikz}
