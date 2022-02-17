@@ -18,6 +18,8 @@ texout = {Frame -> True, ImageSize -> 410,
    TicksStyle -> Directive[FontSize -> 12], 
    LabelStyle -> {FontFamily -> "Latin Modern Roman", FontSize -> 12}};
 ```
+This uses Modern Roman fonts, which your Linux (are you on Linux, right??) might not support. Just install [otf-latin-modern](https://archlinux.org/packages/community/any/otf-latin-modern/) package.
+
 3) then it can be used like
 ```
 p = Plot[ArcSinh[x^2], {x, 0, 5}, Evaluate@texout, 
